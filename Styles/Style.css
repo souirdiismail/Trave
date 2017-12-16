@@ -1,0 +1,100 @@
+body
+{
+  background-position-x: center;
+ background-position-y: center;
+ /*This is what makes the background fully responsive*/
+ background-attachment: fixed;
+ background-size: 100% 100%;
+ font-family: 'Roboto';
+   font-size: 17px;
+   color: white;
+}
+ .navbar
+ {
+   background-color: rgba(0, 0, 0, 0.3);
+   border: 0px;
+ }
+
+.navbar-default .navbar-nav>li>a:hover
+{
+  color: #2397bf;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+  color: white;
+  margin-left: 25px;
+}
+
+.navbar-default .navbar-nav ul
+{
+  margin-right: 50%;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand
+{
+  margin-left: 0px;
+}
+.btn:hover
+{
+  background-color: #2397bf;
+  color: white;
+}
+
+.btn
+{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1.8px solid white;
+  border-radius: 23px;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.navbar-nav
+{
+  margin-right: 25px;
+  float: right;
+}
+
+.content h1
+{
+  margin-top: 290px;
+  font-size: 80px;
+  font-weight: 900;
+  margin-left: 100px;
+}
+
+.content p
+{
+  width: 500px;
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+.btnn
+{
+border-radius: 10px;
+ background-image: -moz-linear-gradient( 145deg, rgb(255,60,172), rgb(86,43,124)40%, rgb(86,43,124) 40%,#2b86c5);
+ background-image: -webkit-linear-gradient( 145deg, rgb(255,60,172), rgb(86,43,124)40%, rgb(86,43,124) 40%,#2b86c5);
+ background-image: -ms-linear-gradient( 145deg, rgb(255,60,172), rgb(86,43,124) 40%, rgb(86,43,124) 40%,#2b86c5);
+ position: absolute;
+ border: 0px;
+ left: 100px;
+ top: 550px;
+ width: 211px;
+ height: 70px;
+ z-index: 3;
+}
+.butt
+{
+  width: 150px;
+  height: 40px;
+  left: 130px;
+  top: 570px;
+  box-shadow: 0px 20px 50px rgba(37, 30, 80, 0.7);
+  position: absolute;
+  z-index: 0;
+}
